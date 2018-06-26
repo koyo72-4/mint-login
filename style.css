@@ -1,0 +1,117 @@
+body{
+    background-color: #eceef1;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.company {
+    width: auto;
+    height: 28px;
+    display: inline-block;
+}
+#intuit {
+    width: auto;
+    height: 45px;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+.company-logos {
+    margin: 0 auto 13px auto;
+    text-align: center;
+}
+#login-box {
+    background-color: white;
+    border: 1px solid rgb(199,199,199);
+    width: 375px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+#heading {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    color: #4c4c4c;
+    line-height: 1.1;
+    font-weight: 400;
+    margin: 0 auto 20px auto;
+}
+#heading h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+#heading p {
+    font-size: 14px;
+}
+#sign-in-button {
+    background-color: #0077C5;
+    border-color:#0077C5;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400px;
+    border-radius: 5px;
+    width: 281px;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.75);
+    padding: 6px 12px 6px 12px;
+}
+[type="email"],[type="text"] {
+    width: 275px;
+    height: 25px;
+}
+#form-section {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 275px;
+    margin: 0 auto;
+    color: #4c4c4c;
+    font-size: 14px;
+}
+#first-div, #second-div {
+    padding: 20px auto;
+}
+#third-div {
+    padding: 5px auto;
+}
+#footer {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(187,187,187);
+    padding: 13px 5px 20px 5px;
+    line-height: 1.5
+}
+#toer {
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 auto;
+    width: 281px;
+    border-top: 1px solid rgb(226,225,225);
+    text-align: center;
+    padding: 20px 5px 30px 5px;
+    line-height: 1.5
+}
+#ground {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(236,238,241);
+    font-size: 10px;
+    color: rgb(141,144,150);
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+#underground {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #505050
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+    padding: 20px auto;
+}
