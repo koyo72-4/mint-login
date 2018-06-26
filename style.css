@@ -62,6 +62,10 @@ body{
     width: 275px;
     height: 25px;
 }
+
+[type="checkbox"], label[for="remember"] {
+    vertical-align: middle;
+}
 #form-section {
     font-family: 'Nunito Sans', sans-serif;
     width: 275px;
